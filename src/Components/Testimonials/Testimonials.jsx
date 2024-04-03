@@ -84,8 +84,8 @@ function Testimonials() {
               <div className="user-info">
                 <img src={user_4} />
                 <div>
-                  <h3>Andrei Antal</h3>
-                  <span>Salonta, RO</span>
+                  <h3>Muller Schauer</h3>
+                  <span>Munchen, DE</span>
                 </div>
               </div>
               <p>

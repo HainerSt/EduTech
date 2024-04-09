@@ -7,6 +7,10 @@
   padding: 40px;
 }
 
+.contact .location {
+  cursor: pointer;
+}
+
 .contact-col {
   flex-basis: 48%;
   color: #676767;
@@ -31,10 +35,15 @@
   line-height: 1.3;
 }
 
-.contact-col ul li {
+.contact-col ul li,
+.contact-col ul li a {
   display: flex;
   align-items: center;
   justify-content: start;
+}
+
+.contact-col ul li a:hover {
+  color: #000;
 }
 
 .contact-col ul li {
@@ -54,7 +63,7 @@
 .contact form textarea {
   width: 100%;
   display: block;
-  max-width: 600px;
+  max-width: 100%;
   background: #ebecfe;
   padding: 15px;
   border: none;

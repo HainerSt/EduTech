@@ -34,6 +34,8 @@ function About({ setPlayState }) {
           catalysts for educational transformation and to contributing to the formation of a better and better-prepared
           society for the future.
         </p>
+        <hr />
+        <h5>"Education is not preparation for life, education is life itself." - John Dewey</h5>
       </div>
     </div>
   );

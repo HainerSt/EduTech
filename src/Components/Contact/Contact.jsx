@@ -52,17 +52,23 @@ const Contact = () => {
         <br />
         <ul>
           <li>
-            <img src={mail_icon} />
-            contact@edutech.ro
+            <a
+              href="mailto: contact@edutech.ro?subject=Contact&body=Please send me the offers for the Webinar program. Regards, Stefan H."
+              target="_blank"
+            >
+              <img src={mail_icon} />
+              contact@edutech.ro
+            </a>
           </li>
           <li>
             <img src={phone_icon} />
             +40 722 603 726
           </li>
           <li>
-            <img src={location_icon} />
-            Oradea, Str. N. Bolcas 8 <br />
-            Oradea, RO
+            <a href="https://maps.app.goo.gl/BCdiNpAUCWa92oQC9" target="_blank">
+              <img src={location_icon} />
+              Oradea, Str. N. Bolcas 8 <br />
+            </a>
           </li>
         </ul>
       </div>

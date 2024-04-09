@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+  -webkit-user-select: none;
 }
 
 body {
@@ -55,6 +56,10 @@ a {
 .btn.dark-btn {
   background: #212ea0;
   color: #fff;
+}
+
+.testimonials_title {
+  margin-bottom: 150px;
 }
 
 @media (max-width: 1200px) {

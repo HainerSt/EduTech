@@ -65,9 +65,9 @@ const Contact = () => {
             +40 722 603 726
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/BCdiNpAUCWa92oQC9" target="_blank">
+            <a href="https://maps.app.goo.gl/eMNkysyKsZvASwZo6" target="_blank">
               <img src={location_icon} />
-              Oradea, Str. N. Bolcas 8 <br />
+              Oradea, Str. Nufărului 30 <br />
             </a>
           </li>
         </ul>

@@ -9,7 +9,7 @@ import program_icon_3 from "../../assets/program-icon-3.png";
 
 function Programs() {
   return (
-    <div className="programs">
+    <div className="programs" id="programs">
       <a className="program">
         <img src={program_1} alt="image" />
         <div className="caption">

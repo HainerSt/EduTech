@@ -19,12 +19,13 @@ function Hero() {
         <h2>Explore, Learn, Evolve!</h2>
 
         <p>
-        With a wide range of
-          <span className="highlight"> courses and educational programs</span>, we are committed to bringing the best resources and experts to you.
+          With a wide range of
+          <span className="highlight"> courses and educational programs</span>, we are committed to bringing the best
+          resources and experts to you.
         </p>
 
-        <Link to="hero" smooth={true} offset={2000} duration={500} class="btn">
-        Begin Your Journey <img src={dark_arrow} />
+        <Link to="programs" smooth={true} offset={-313} duration={700} className="btn hero_btn">
+          Begin Your Journey <img src={dark_arrow} />
         </Link>
       </div>
     </div>

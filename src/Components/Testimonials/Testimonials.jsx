@@ -6,6 +6,7 @@ import user_1 from "../../assets/user-1.png";
 import user_2 from "../../assets/user-2.png";
 import user_3 from "../../assets/user-3.png";
 import user_4 from "../../assets/user-4.png";
+import arrow_down from "../../assets/arrow down d.gif"
 
 function Testimonials() {
   const slider = useRef();
@@ -14,15 +15,21 @@ function Testimonials() {
   const slideForward = () => {
     if (tx > -50) {
       tx -= 25;
+      slider.current.style.transform = `translateX(${tx}%)`;
+    } else if (tx == -50) {
+      slider.current.style.transform = `translateX(0)`;
+      tx = 0;
     }
-    slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   const slideBackward = () => {
     if (tx < 0) {
       tx += 25;
+      slider.current.style.transform = `translateX(${tx}%)`;
+    }else if (tx == 0) {
+      slider.current.style.transform = `translateX(0)`;
+      tx = -75;
     }
-    slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   return (
@@ -40,7 +47,7 @@ function Testimonials() {
                   <span>Oradea, RO</span>
                 </div>
               </div>
-              <p>
+              <p className="testimonial_message">
                 The services provided were remarkable! Passionate teachers and well-structured courses contributed to a
                 captivating and useful learning experience. I highly recommend it! &#128513; &#128513; &#128513;
               </p>
@@ -56,7 +63,7 @@ function Testimonials() {
                   <span>Crete, EL</span>
                 </div>
               </div>
-              <p>
+              <p className="testimonial_message">
                 I was impressed by the professionalism and dedication of the staff. The courses are interactive and
                 relevant, and the resources provided were extremely useful in my development.
               </p>
@@ -72,7 +79,7 @@ function Testimonials() {
                   <span>Manchester, UK</span>
                 </div>
               </div>
-              <p>
+              <p className="testimonial_message">
                 I warmly recommend to all those who wish to improve their knowledge and achieve new levels of success
                 both in their careers and personally.
               </p>
@@ -88,7 +95,7 @@ function Testimonials() {
                   <span>Munchen, DE</span>
                 </div>
               </div>
-              <p>
+              <p className="testimonial_message">
                 he well-structured courses and interactive learning materials have made the learning process engaging
                 and accessible. The teachers are extremely competent and dedicated, providing us with the necessary
                 support at every stage of our educational journey.
@@ -96,6 +103,7 @@ function Testimonials() {
             </div>
           </li>
         </ul>
+        <img src={arrow_down} class="arrow_down" />
       </div>
     </div>
   );

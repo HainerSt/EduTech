@@ -2,7 +2,8 @@
   margin: 50px auto;
   padding: 0 50px;
   position: relative;
-  width: 70%;
+  width: 75%;
+  margin-bottom: 200px;
 }
 
 .next-btn,
@@ -26,15 +27,15 @@
 
 .slider {
   overflow: hidden;
-  height: 400px;
+  height: 500px;
 }
 
 .slider ul {
   display: flex;
   width: 200%;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
-  height: 400px;
+  height: 500px;
   align-items: center;
 }
 
@@ -51,10 +52,11 @@
   border-radius: 10px;
   color: #676767;
   line-height: 1.4;
+  height: 100%;
 }
 
 .slide img {
-  width: 75px;
+  width: 80px;
   border-radius: 50%;
   margin-right: 10px;
   border: 4px solid #212ea0;
@@ -69,6 +71,20 @@
 
 .user-info h3 {
   color: #212ea0;
+}
+
+.testimonial_message {
+  font-size: 20px;
+}
+
+.back-btn,
+.next-btn {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.back-btn:hover,
+.next-btn:hover {
+  opacity: 1;
 }
 
 /* ------------

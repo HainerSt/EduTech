@@ -106,5 +106,26 @@ media query
     margin-left: auto;
     margin-right: auto;
   }
+}
 
+@media (max-width: 480px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-col {
+    padding: 0px;
+  }
+  .contact-col p {
+    width: 300px;
+    max-width: 420px;
+    line-height: 1.3;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

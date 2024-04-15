@@ -147,6 +147,55 @@ media query
     font-size: 16px;
   }
   .slider p {
-    font-size: 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  @media (max-width: 800px) {
+    .testimonials {
+      margin: 0px auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+
+    .next-btn,
+    .back-btn {
+      transform: translateY(-50%);
+      padding: 6px;
+      width: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      background: #212ea0;
+      z-index: 10;
+      margin-left: -14px;
+      margin-right: -14px;
+    }
+    .testimonials ul li {
+      padding: 10px;
+    }
+
+    .user-info h3,
+    .user-info img {
+      margin: 5px;
+    }
+
+    .slider ul {
+      height: 440px;
+      align-items: center;
+      width: 400%;
+    }
+    .slider ul li {
+      height: 400px;
+    }
+
+    .slide {
+      padding: 10px;
+      height: 400px;
+    }
+
+    .testimonial_message {
+      font-size: 16px;
+    }
   }
 }

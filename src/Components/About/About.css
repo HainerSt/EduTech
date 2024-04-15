@@ -107,11 +107,46 @@ media query
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .about {
-      margin: 0px auto;
-      width: 100%;
-      
+    margin: 0px auto;
+    width: 100%;
+  }
 }
 
+@media (max-width: 480px) {
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 
+  .about h2 {
+    font-size: 24px;
+    color: #000f38;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .about p {
+    color: #313131;
+    margin-bottom: 15px;
+    font-size: 18px;
+    word-spacing: 1.2;
+  }
+
+  .about-img {
+    opacity: 90%;
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border-radius: 20px;
+  }
+  .play-icon {
+    width: 80px;
+  }
+}

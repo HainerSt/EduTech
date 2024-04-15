@@ -10,7 +10,7 @@ import program_icon_3 from "../../assets/program-icon-3.png";
 function Programs() {
   return (
     <div className="programs" id="programs">
-      <a className="program">
+      <div className="program">
         <img src={program_1} alt="image" />
         <div className="caption">
           <a href="https://youtu.be/GFW-WfuX2Dk?feature=shared&t=53" target="_blank">
@@ -19,7 +19,7 @@ function Programs() {
             <h5>-PDF-</h5>
           </a>
         </div>
-      </a>
+      </div>
 
       <div className="program">
         <img src={program_3} alt="image" />

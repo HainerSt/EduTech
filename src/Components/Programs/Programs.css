@@ -52,17 +52,121 @@
 
 .caption img {
   margin-bottom: 10px;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 0px;
   pointer-events: none;
+}
+
+.caption h5 {
+  color: #fff;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .program img {
+    width: 100%;
+    height: 80%;
+  }
+  .caption,
+  .caption:hover,
+  .programs img {
+    height: 80%;
+  }
+  .caption img {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .programs {
+    margin: 40px auto;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .program {
+    flex-basis: 31%;
+    position: relative;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .caption img {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 70px;
+    pointer-events: none;
+    text-align: center;
+  }
 }
 
 @media (max-width: 650px) {
   .programs {
     flex-direction: column;
   }
+}
+
+@media (max-width: 480px) {
+  .programs {
+    margin: 0px auto;
+  }
+
   .program {
-    flex-basis: 100%;
-    margin: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .caption {
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  @media (max-width: 800px) {
+    .programs {
+      margin: 40px auto;
+      margin-bottom: 20px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .program {
+      flex-basis: 31%;
+      position: relative;
+      margin-bottom: 10px;
+      width: 400px;
+      height: 400px;
+    }
+  
+    .caption img {
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70px;
+      width: 70px;
+      pointer-events: none;
+      text-align: center;
+    }
   }
 }
+
+

@@ -6,7 +6,6 @@ import user_1 from "../../assets/user-1.png";
 import user_2 from "../../assets/user-2.png";
 import user_3 from "../../assets/user-3.png";
 import user_4 from "../../assets/user-4.png";
-import arrow_down from "../../assets/arrow down d.gif"
 
 function Testimonials() {
   const slider = useRef();
@@ -103,7 +102,6 @@ function Testimonials() {
             </div>
           </li>
         </ul>
-        <img src={arrow_down} class="arrow_down" />
       </div>
     </div>
   );

@@ -106,7 +106,7 @@ const Contact = () => {
             required
           ></textarea>
 
-          <button type="submit" className="btn dark-btn">
+          <button type="submit" className="btn dark-btn send_btn">
             Send<img src={white_arrow}></img>
           </button>
         </form>

@@ -84,4 +84,8 @@ Media query
   .hide-mobile-menu {
     right: -250px;
   }
+  .contact-btn {
+    width: 150px;
+  }
 }
+

@@ -19,10 +19,23 @@
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
+  width: 100%;
 }
+
 .hero-text h2 {
+  width: 100%;
   font-size: 30px;
   font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 6s steps(250), step-start infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 
 .hero-text p {
@@ -55,6 +68,7 @@ Media query
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
+    transition: 0.5s ease-in;
   }
   .hero-text h2 {
     font-size: 28px;
@@ -69,6 +83,7 @@ Media query
     text-align: center;
     line-height: 1.5;
     word-spacing: 2.5px;
+    transition: 0.4s ease-in;
   }
 
   .hero_btn {

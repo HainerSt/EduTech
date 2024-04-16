@@ -9,7 +9,7 @@ function Navbar() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 200 ? setSticky(true) : setSticky(false);
+      window.scrollY > 100 ? setSticky(true) : setSticky(false);
     });
   }, []);
 
@@ -45,7 +45,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link className="btn" to="contact" smooth={true} offset={-260} duration={500}>
+          <Link className="btn contact-btn" to="contact" smooth={true} offset={-260} duration={500}>
             CONTACT US
           </Link>
         </li>

@@ -39,7 +39,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <div className="contact-col">
+      <div className="contact-col left">
         <h3>
           Send Us a Message <img src={msg_icon} />
         </h3>
@@ -74,7 +74,7 @@ const Contact = () => {
         </ul>
       </div>
 
-      <div className="contact-col">
+      <div className="contact-col right">
         <form onSubmit={onSubmit}>
           <label>Name:</label>
           <input

@@ -13,7 +13,7 @@ function Programs() {
       <div className="program">
         <img src={program_1} alt="image" />
         <div className="caption">
-          <a href="https://youtu.be/GFW-WfuX2Dk?feature=shared&t=53" target="_blank">
+          <a href="https://www.linkedin.com/in/hainerstefan/" target="_blank">
             <img src={program_icon_1} />
             <p>Online Courses</p>
             <h5>-PDF-</h5>
@@ -24,7 +24,7 @@ function Programs() {
       <div className="program">
         <img src={program_3} alt="image" />
         <div className="caption">
-          <a href="https://youtu.be/GFW-WfuX2Dk?feature=shared&t=53" target="_blank">
+          <a href="https://www.linkedin.com/in/hainerstefan/" target="_blank">
             <img src={program_icon_3} />
             <p>Webinars</p>
             <h5>-Zoom-</h5>
@@ -35,7 +35,7 @@ function Programs() {
       <div className="program">
         <img src={program_2} alt="image" />
         <div className="caption">
-          <a href="https://youtu.be/GFW-WfuX2Dk?feature=shared&t=53" target="_blank">
+          <a href="https://www.linkedin.com/in/hainerstefan/" target="_blank">
             <img src={program_icon_2} />
             <p>Group Workshops</p>
             <h5>-Live-</h5>
